@@ -26,6 +26,10 @@ a, a:hover, a:focus {
     outline: none;
 }
 
+a i {
+    color: black;
+}
+
 button {
     background-color: $primaryColor2;
 }
@@ -34,6 +38,7 @@ button {
     position: fixed;
     width: 100%;
     height: 100%;
+    padding: 2em;
 }
 
 .scrollable-section {
