@@ -18,8 +18,10 @@ button {
   background-color: #DBE2EF; }
 
 .main-section {
-  position: fixed; }
+  position: fixed;
+  width: 100%;
+  height: 100%; }
 
 .scrollable-section {
   overflow: scroll;
-  height: 100%; }
+  max-height: 100%; }
