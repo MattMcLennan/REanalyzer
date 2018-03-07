@@ -16,41 +16,48 @@
 </head>
 
 <body>
-  <div class="container-fluid row">
+  <div class="row header-container">
     <div class="col-1"></div>
     <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
-          <a class="navbar-brand">REanalyze</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav class="navbar navbar-expand-lg" id="header">
+        <a class="navbar-brand">REanalyzer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#home">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#models">Models</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#reports">Reports</a>
-              </li>
-            </ul>
-            <button type="button" class="btn btn-secondary" id="logout">Logout</button>
-          </div>
-        </nav>
-
-
-        
-
-
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#models">Models</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reports">Reports</a>
+            </li>
+          </ul>
+          <button type="button" class="btn" id="logout">Logout</button>
+        </div>
+      </nav>
     </div>
     <div class="col-1"></div>
   </div>
+
+  <div class="main-section">
+    <div class="row scrollable-section">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row" style="background-color: green; height: 500px;"></div>
+        <div class="row" style="background-color: blue; height: 8000px;"></div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+
 
 
 

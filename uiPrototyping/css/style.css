@@ -1,2 +1,25 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.header-container {
+  background-color: #112D4E;
+  color: #F9F7F7; }
+
+a, a:hover, a:focus {
+  color: #F9F7F7;
+  outline: none; }
+
+button {
+  background-color: #DBE2EF; }
+
+.main-section {
+  position: fixed; }
+
+.scrollable-section {
+  overflow: scroll;
+  height: 100%; }

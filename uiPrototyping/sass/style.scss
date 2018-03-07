@@ -8,5 +8,33 @@ $primaryColor4: #112D4E;
 
 body {
     font-family: $body-fontface;
+    overflow: hidden;
 }
 
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header-container {
+    background-color: $primaryColor4;
+    color: $primaryColor1;
+}
+
+a, a:hover, a:focus {
+    color: $primaryColor1;
+    outline: none;
+}
+
+button {
+    background-color: $primaryColor2;
+}
+
+.main-section {
+    position: fixed;
+}
+
+.scrollable-section {
+    overflow: scroll;
+    height: 100%;
+}
