@@ -1,0 +1,51 @@
+$heading-fontface: 'Oswald', sans-serif;
+$body-fontface: 'Open Sans', sans-serif;
+
+$primaryColor1: #F9F7F7;
+$primaryColor2: #DBE2EF;
+$primaryColor3: #3F72AF;
+$primaryColor4: #112D4E;
+
+body {
+    font-family: $body-fontface;
+    overflow: hidden;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header-container {
+    background-color: $primaryColor4;
+    color: $primaryColor1;
+}
+
+a, a:hover, a:focus {
+    color: $primaryColor1;
+    outline: none;
+}
+
+a i {
+    color: black;
+}
+
+button {
+    background-color: $primaryColor2;
+}
+
+.main-section {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 3em;
+}
+
+.sub-main-section {
+    margin-bottom: 3em;
+}
+
+.scrollable-section {
+    overflow: scroll;
+    max-height: 100%;
+}
