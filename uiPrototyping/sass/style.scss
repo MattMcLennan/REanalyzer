@@ -1,43 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     font-family: Poppins;
-    font-size: 1rem;
+    font-size: 14px;
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -mos-osx-font-smoothing: grayscale;
     overflow: hidden;
-    color: #212529;
 }
 
-a {
-    color: #5867dd;
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
     text-decoration: none;
     background-color: transparent;
-    -webkit-text-decoration-skip: objects;
 }
 
-a:hover {
-    color: #5867dd;
-}
-
-.row {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.header-container {
+nav {
     padding: 0 4em;
-    -webkit-box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
-    -moz-box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
-    box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+    -webkit-box-shadow: 0 1px 15px 1px rgba(69, 65, 78, .08);
+    -moz-box-shadow: 0 1px 15px 1px rgba(69, 65, 78, .08);
+    box-shadow: 0 1px 15px 1px rgba(69, 65, 78, .08);
     background: #fff;
     height: 80px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        line-height: 80px;
+    }
 }
 
 .nav-item {
     padding: 0 15px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #676c7b;
+    height: 100%;
+    a {
+        line-height: 80px;
+        display: inline-flex;
+    }
+    i {
+        color: #b8bece;
+        font-size: 1.3rem;
+    }
+    :hover,
+    :focus {
+        color: #734cea;
+        i {
+            color: #734cea;
+        }
+    }
+}
+
+.logo {
+    color: #7e4feb;
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-icon {
@@ -45,9 +84,9 @@ a:hover {
 }
 
 .nav-link {
-    color: #676c7b;
-    font-size: 1.07rem;
-    font-weight: 300;
+    span {
+        font-weight: 500;
+    }
 }
 
 .main-section {
